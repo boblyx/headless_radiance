@@ -8,7 +8,7 @@ bash build.sh
 ```
 1. Make a folder to mount
 ```bash
-touch data
+mkdir data
 ```
 1. Run the container
 ```
