@@ -1,5 +1,5 @@
 # Headless Radiance
-Dockerfile for creating a docker container for running a headless instance of Radiance. 
+Dockerfile for creating a docker container for running a headless instance of [Radiance](https://github.com/LBNL-ETA/Radiance/tree/master) by the [Lawrence Berkeley National Laboratory](https://github.com/LBNL-ETA). 
 
 ## Usage
 1. Build the container image
