@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
-FROM debian:bookworm
-ENV RAYPATH="/usr/local/ray/lib"
+FROM python:3.10.13-slim-bookworm
+ENV RAYPATH="/usr/local/radiance/lib"
 WORKDIR /app
 RUN DEBIAN_FRONTEND=noninteractive apt-get update && \ 
     apt-get -y install curl tar cmake csh libtiff-dev libx11-dev g++ freeglut3-dev && \
@@ -13,9 +13,9 @@ RUN cmake /app/Radiance-rad5R4 && \
     mkdir /usr/local/ray && \ 
     mkdir /usr/local/ray/bin && \ 
     mkdir /usr/local/ray/lib && \
-    cp /app/Radiance-rad5R4/build/bin/* /usr/local/ray/bin && \ 
-    cp /app/Radiance-rad5R4/build/lib/* /usr/local/ray/lib && \
-    echo "export PATH=/usr/local/ray/bin:$PATH" >> $HOME/.bashrc && \
+    cp /app/Radiance-rad5R4/build/bin/* /usr/local/radiance/bin && \ 
+    cp /app/Radiance-rad5R4/build/lib/* /usr/local/radiance/lib && \
+    echo "export PATH=/usr/local/radiance/bin:$PATH" >> $HOME/.bashrc && \
     make clean && \
     rm /app/rad5R4.tar.gz 
 WORKDIR /app

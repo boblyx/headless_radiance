@@ -1,3 +1,3 @@
 #!/bin/sh
 # Builds the docker image
-sudo docker build -t headless-radiance:v5r4 . 
+docker build -t radiance:v5r4 . 

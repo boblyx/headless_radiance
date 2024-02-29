@@ -1,0 +1,113 @@
+void light my_light
+0 
+0 
+3 20 20 20
+
+my_light sphere my_sphere
+0
+0
+4 2.0 2.0 2.0 0.25
+
+void plastic my_mat 
+0 
+0
+5 .9 .9 .9 0 0
+
+my_mat polygon Cube.1
+0
+0
+9
+                  1                  1                 -1
+                 -1                  1                 -1
+                 -1                  1                  1
+
+my_mat polygon Cube.1
+0
+0
+9
+                 -1                  1                  1
+                  1                  1                  1
+                  1                  1                 -1
+
+my_mat polygon Cube.2
+0
+0
+9
+                  1                 -1                  1
+                  1                  1                  1
+                 -1                  1                  1
+
+my_mat polygon Cube.2
+0
+0
+9
+                 -1                  1                  1
+                 -1                 -1                  1
+                  1                 -1                  1
+
+my_mat polygon Cube.3
+0
+0
+9
+                 -1                 -1                  1
+                 -1                  1                  1
+                 -1                  1                 -1
+
+my_mat polygon Cube.3
+0
+0
+9
+                 -1                  1                 -1
+                 -1                 -1                 -1
+                 -1                 -1                  1
+
+my_mat polygon Cube.4
+0
+0
+9
+                 -1                 -1                 -1
+                  1                 -1                 -1
+                  1                 -1                  1
+
+my_mat polygon Cube.4
+0
+0
+9
+                  1                 -1                  1
+                 -1                 -1                  1
+                 -1                 -1                 -1
+
+my_mat polygon Cube.5
+0
+0
+9
+                  1                 -1                 -1
+                  1                  1                 -1
+                  1                  1                  1
+
+my_mat polygon Cube.5
+0
+0
+9
+                  1                  1                  1
+                  1                 -1                  1
+                  1                 -1                 -1
+
+my_mat polygon Cube.6
+0
+0
+9
+                 -1                 -1                 -1
+                 -1                  1                 -1
+                  1                  1                 -1
+
+my_mat polygon Cube.6
+0
+0
+9
+                  1                  1                 -1
+                  1                 -1                 -1
+                 -1                 -1                 -1
+
+# Done processing file: assets/test.obj
+# 36 lines, 36 statements, 1 unrecognized
