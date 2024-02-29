@@ -1,6 +1,6 @@
 # Radiance Docker
-Dockerfiles for creating a docker container for running a containerised instance of Radiance. 
-
+Dockerfiles for creating a docker container for running a containerised instance of [Radiance](https://github.com/LBNL-ETA/Radiance/tree/master) by the [Lawrence Berkeley National Laboratory](https://github.com/LBNL-ETA). 
+ 
 There two ways to build the image: 
 1. Use the pre-compiled binaries which may work in some images.
 1. Compile from source, which is currently still broken in some areas due to some missing functions.
